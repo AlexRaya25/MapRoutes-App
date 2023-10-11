@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtAviso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Límite alcanzado: No puedes seleccionar más de 10 elementos."
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgGmapAviso"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_gmap"/>
+
+    <Button
+        android:id="@+id/btnGmapsAviso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/button_background"
+        android:text="Usar Google Maps"
+        android:visibility="gone"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_background"
+        android:text="VOLVER"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+</LinearLayout>
+
